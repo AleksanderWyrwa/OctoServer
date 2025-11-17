@@ -1,9 +1,5 @@
-
-<details>
-  <summary>💡 Decision: Why we chose Approach B</summary>
-
-- Approach A caused a race condition in worker queue  
-- Approach B simplifies the Rust pipeline  
-- Enables future parallel processing
-
-</details>
+# RFC: New Token Refresh Logic
+## Problem
+### Impact
+### Proposed Solution
+### Diagrams
