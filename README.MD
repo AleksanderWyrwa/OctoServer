@@ -32,5 +32,8 @@ The new retry logic only applies to uploads[^1].
 <div style="margin-top:20px, background-color: #fff";>
 This block is separated for readability.
 </div>
+<div style="padding:12px;background:#fff3cd;border-left:4px solid #e0a800;">
+⚠️ **Important:** This endpoint returns stale data for up to 30s.
+</div>
 
 
