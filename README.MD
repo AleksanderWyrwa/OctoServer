@@ -3,7 +3,7 @@
 # Why Markdown + HTML?
 
   * Structured PR comments
-  * Clear GitHub Discussionsz
+  * Clear GitHub Discussions
   * Enhanced READMEs and documentation
 
 > Tip: Good formatting reduces reviewer fatigue. ✅
