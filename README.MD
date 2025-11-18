@@ -59,6 +59,9 @@ The naming aligns with our auth service conventions.
 
 ### HTML Table
 
+> [!TIP]
+> All tags available for use inside Markdown files can be found [here](https://github.com/gjtorikian/html-pipeline/blob/main/lib/html_pipeline/sanitization_filter.rb).
+
 ```html
 <table>
   <tr><th>Endpoint</th><th>Expected</th><th>Actual</th></tr>
