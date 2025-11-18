@@ -363,18 +363,6 @@ The data comes from the Stage[^1].
 
 ---
 
-# Blockquotes & Emojis
-
-```markdown
-> Remember: clarity is key! 🚀
-```
-
-**Rendered Result:**
-
-> Remember: clarity is key! 🚀
-
----
-
 # Summary
 
 * Markdown = simple, fast
