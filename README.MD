@@ -38,11 +38,9 @@
 
 **Rendered Result:**
 
-```markdown
 | Left | Center | Right |
 |:-----|:------:|------:|
 | a    | b      | c     |
-```
 
 ### HTML Table
 
