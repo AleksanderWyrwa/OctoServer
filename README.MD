@@ -367,5 +367,3 @@ The data comes from the Stage[^1].
 * HTML = powerful, flexible
 * Combining both → best results in GitHub
 * Fully supports Caseform workflow
-
-<mark>highlight</mark>
