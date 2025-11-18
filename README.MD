@@ -109,6 +109,8 @@ if (!sessionToken) {
 }
 ```</pre>
 
+**Rendered Result:**
+
 ```javascript
 // Example Caseform logic
 if (!sessionToken) {
