@@ -25,6 +25,7 @@
 | Subscript / Superscript (HTML) | `<sub>sub</sub>`, `<sup>sup</sup>` | H<sub>2</sub>O, x<sup>2</sup> |
 
 </div>
+
 ---
 
 # Tables
