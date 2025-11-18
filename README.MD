@@ -235,28 +235,28 @@ Some flows rely on OAuth2[^1].
 * Fully supports Caseform workflow
 
 
+
 # Onboarding / Role Update Checklist for New Experienced Developer
 
 ### GitHub Teams
-- [ ] Add them to **Caseform** team
-- [ ] Remove them from **Caseform (non-reviewers)** team
+- Add them to **Caseform** team
+- Remove them from **Caseform (non-reviewers)** team
 
 ### TMetric
-- [ ] Add them as **Team Lead** in **Caseform (Experienced)** team
+- Add them as **Team Lead** in **Caseform (Experienced)** team
 
 ### Quick Reference / Initials
-- [ ] Update **Quick Reference** page: move/add their initials
+- Update **Quick Reference** page: move/add their initials
 
 ### Slack
-- [ ] Add them to **@caseform-experienced** user group
+- Add them to **@caseform-experienced** user group
 
 ### Refinement / Meetings
-- [ ] Create **Refinement in Progress** section for them
-- [ ] Update **Controlling spreadsheet**:
-  - [ ] Set them as next **Refinement Speaker**
-  - [ ] Add them to **SSE rotation** (re-randomize twice)
+- Create **Refinement in Progress** section for them
+- Update **Controlling spreadsheet**:
+  - Set them as next **Refinement Speaker**
+  - Add them to **SSE rotation** (re-randomize twice)
 
 ### Documentation
-- [ ] Send them the link to [What are my duties, rights, and responsibilities as experienced developer and refinement speaker?](https://github.com/Caseform/repo/issues/1215)  
+- Send them the link to [What are my duties, rights, and responsibilities as experienced developer and refinement speaker?](https://github.com/Caseform/repo/issues/1215)  
       Ask them to read it at their earliest convenience
-
