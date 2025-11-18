@@ -173,14 +173,15 @@ throw new Error("missing session token"); /* reject unauthorized */
 ---
 
 # Mermaid Diagrams
-
-/```mermaid
+```
+```mermaid
 graph TD
   Linear --> Dev
   Dev --> PR
   PR --> Review
   Review --> Merge
-/```
+```
+```
 
 **Rendered Result:**
 ```mermaid
