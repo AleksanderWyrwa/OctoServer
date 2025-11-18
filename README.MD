@@ -99,9 +99,12 @@ The naming aligns with our auth service conventions.
 
 <details>
 <summary>Edge Cases</summary>
- - Token expired > 12h
- - Mobile retries 3×
+
+- Token expired > 12h  
+- Mobile retries 3×  
+
 </details>
+
 
 ---
 
