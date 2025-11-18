@@ -188,11 +188,18 @@ throw new Error("missing session token"); /* reject unauthorized */
 
 **Rendered Result:**
 ```mermaid
-graph TD
-  Linear --> Dev
-  Dev --> PR
-  PR --> Review
-  Review --> Merge
+flowchart TD
+
+    %% Main workflow
+    A[Linear] --> B[Development]
+    B --> C[Pull Request]
+    C --> D[Review]
+    D --> E[Merge]
+    E --> F[Deploy]
+
+    %% Backflow from Review
+    D -->|Changes Requested| C
+    C -->|Needs Rework| B
 ```
 
 ---
