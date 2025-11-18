@@ -119,6 +119,66 @@ throw new Error("missing session token"); /* reject unauthorized */
 
 ---
 
+## Notes / Info
+
+```markdown
+> **Note:** The API call is rate-limited to 100 requests per minute.
+```
+
+**Rendered Result:**
+
+> **Note:** The API call is rate-limited to 100 requests per minute.
+
+---
+
+## Caution / Warning
+
+```markdown
+>⚠️ **Caution:** This change may break backward compatibility with v1 clients.
+```
+
+**Rendered Result:**
+
+> ⚠️ **Caution:** This change may break backward compatibility with v1 clients.
+
+---
+
+## Error / Problem
+
+```markdown
+> ❌ **Error:** The delete endpoint currently returns 500 for null payloads.
+```
+
+**Rendered Result:**
+
+> ❌ **Error:** The delete endpoint currently returns 500 for null payloads.
+
+---
+
+## Success / OK
+
+```markdown
+> ✅ **Success:** The new endpoint correctly validates all input types.
+```
+
+**Rendered Result:**
+
+> ✅ **Success:** The new endpoint correctly validates all input types.
+
+---
+
+## Tip / Recommendation
+
+```markdown
+> 💡 **Tip:** Use `sessionToken` instead of `token` to improve clarity.
+```
+
+**Rendered Result:**
+
+> 💡 **Tip:** Use `sessionToken` instead of `token` to improve clarity.
+
+---
+
 # GitHub Discussions
 
 ```markdown
