@@ -185,7 +185,7 @@ classDiagram
         +String description
     }
 
-    Organization "1" --> "1" OrganizationEditable : hasEditableFields
+    Organization "1" --> "1" OrganizationEditable
 ```
 
 ---
