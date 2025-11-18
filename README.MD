@@ -207,7 +207,32 @@ classDiagram
 
     Organization "1" --> "1" OrganizationEditable
 ```
-
+# Mermaid State diagram
+<pre>
+```mermaid
+stateDiagram
+    [*] --> Draft
+    Draft --> PendingApproval : submitForApproval()
+    PendingApproval --> Approved : approve()
+    PendingApproval --> Rejected : reject()
+    Approved --> Archived : archive()
+    Rejected --> Draft : revise()
+    Approved --> Active : activate()
+    Active --> Archived : archive()
+```
+</pre>
+**Rendered Result:**
+```mermaid
+stateDiagram
+    [*] --> Draft
+    Draft --> PendingApproval : submitForApproval()
+    PendingApproval --> Approved : approve()
+    PendingApproval --> Rejected : reject()
+    Approved --> Archived : archive()
+    Rejected --> Draft : revise()
+    Approved --> Active : activate()
+    Active --> Archived : archive()
+```
 ---
 
 # Footnotes
