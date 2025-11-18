@@ -1,6 +1,6 @@
 # GitHub-Flavored Markdown + HTML Workshop (Caseform)
 
-This is a **single Markdown file** containing the entire presentation, examples, and code snippets. You can view it as one continuous document.
+A complete Markdown-based presentation including **code snippets** and their **rendered results** below each example.
 
 ---
 
@@ -10,24 +10,20 @@ This is a **single Markdown file** containing the entire presentation, examples,
 
 ### Caseform
 
-* Examples first
-* Then live session
-* Focused on our workflow
+* Examples first, then live session
+* Fully Markdown presentation ready for GitHub/VSCode
 
 ---
 
 # Slide 2 — Why Markdown + HTML?
 
-* Works perfectly with GitHub PR Reviews
-* Our workflow:
+* Workflow: Linear → Dev → PR → Review → Merge
+* PR descriptions optional, but formatting helps
+* Markdown + HTML help:
 
-  * Linear → Dev → PR → Review → Merge
-* PR descriptions optional → formatting still matters
-* Markdown + HTML help us:
-
-  * Structure review comments
-  * Keep discussions readable
-  * Improve documentation (READMEs)
+  * PR review comments
+  * GitHub Discussions
+  * Documentation & READMEs
 
 ---
 
@@ -43,6 +39,18 @@ This is a **single Markdown file** containing the entire presentation, examples,
 The naming aligns with our auth service conventions.
 </details>
 ```
+
+**Result:**
+
+### Suggested Changes
+
+* [ ] Rename `token` → `sessionToken` /* clearer meaning */
+* [ ] Add null-payload test /* covers mobile client edge case */
+
+<details>
+<summary>Reasoning</summary>
+The naming aligns with our auth service conventions.
+</details>
 
 ---
 
@@ -60,6 +68,18 @@ The naming aligns with our auth service conventions.
 </details>
 ```
 
+**Result:**
+
+<h3>Suggested Changes</h3>
+<ul>
+  <li><input type="checkbox"> Rename <code>token</code> → <code>sessionToken</code> <!-- consistent naming --></li>
+  <li><input type="checkbox"> Add null payload test <!-- backend mobile interaction --></li>
+</ul>
+<details>
+  <summary>Reasoning</summary>
+  Aligns with our service-level naming.
+</details>
+
 ---
 
 # Slide 5 — Tables (Markdown)
@@ -70,6 +90,13 @@ The naming aligns with our auth service conventions.
 | POST /session   | 200 OK   | 200 OK |
 | DELETE /session | 204 OK   | 500 ❌ |
 ```
+
+**Result:**
+
+| Endpoint        | Expected | Actual |
+| --------------- | -------- | ------ |
+| POST /session   | 200 OK   | 200 OK |
+| DELETE /session | 204 OK   | 500 ❌  |
 
 ---
 
@@ -83,9 +110,17 @@ The naming aligns with our auth service conventions.
 </table>
 ```
 
+**Result:**
+
+<table>
+  <tr><th>Endpoint</th><th>Expected</th><th>Actual</th></tr>
+  <tr><td>POST /session</td><td>200 OK</td><td>200 OK</td></tr>
+  <tr><td>DELETE /session</td><td>204 OK</td><td>500 ❌</td></tr>
+</table>
+
 ---
 
-# Slide 7 — Collapsibles (Both)
+# Slide 7 — Collapsibles (Markdown)
 
 ```markdown
 <details>
@@ -95,15 +130,13 @@ The naming aligns with our auth service conventions.
 </details>
 ```
 
-```html
+**Result:**
+
 <details>
   <summary>Edge Cases</summary>
-  <ul>
-    <li>Token expired &gt; 12h <!-- backend rejects token --></li>
-    <li>Mobile retries 3× <!-- app-side retry loop --></li>
-  </ul>
+  - Token expired > 12h
+  - Mobile retries 3×
 </details>
-```
 
 ---
 
@@ -115,6 +148,13 @@ if (!sessionToken) {
   throw new Error("missing session token"); /* reject unauthorized */
 }
 ```
+
+**Result:**
+
+// Example Caseform logic
+if (!sessionToken) {
+throw new Error("missing session token"); /* reject unauthorized */
+}
 
 ---
 
@@ -128,6 +168,8 @@ graph TD
   Review --> Merge
 ```
 
+**Result:** (Rendered Mermaid Diagram)
+
 ---
 
 # Slide 10 — GitHub Discussion Example
@@ -140,6 +182,16 @@ graph TD
 
 @alice Can you verify logging behavior?
 ```
+
+**Result:**
+
+## Action Items
+
+* [ ] Investigate cold-start latency /* backend lambdas */
+* [ ] Document retry strategy /* client SDK */
+* [ ] Align error schema /* API consistency */
+
+@alice Can you verify logging behavior?
 
 ---
 
@@ -155,13 +207,24 @@ graph TD
 </table>
 ```
 
+**Result:**
+
+## Auth Summary
+
+<table>
+  <tr><td>Step</td><td>Description</td></tr>
+  <tr><td>1</td><td>Client requests token</td></tr>
+  <tr><td>2</td><td>Server validates</td></tr>
+  <tr><td>3</td><td>Token returned</td></tr>
+</table>
+
 ---
 
 # Slide 12 — Live Session
 
-* Enhance a real Caseform PR review using MD + HTML
+* Enhance a real Caseform PR review using Markdown + HTML
 * Improve one GitHub Discussion
-* Update a README section
+* Update README formatting
 
 ---
 
