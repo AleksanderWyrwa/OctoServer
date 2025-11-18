@@ -106,7 +106,7 @@
 ### Simple example of Collapsible
 ```markdown
 <details> 
-<summary>▶ Edge Cases </summary> 
+<summary>Edge Cases </summary> 
 
 - Token expired > 12h 
 - Mobile retries 3×
@@ -117,7 +117,7 @@
 **Rendered Result:**
 
 <details> 
-<summary>▶ Edge Cases </summary> 
+<summary>Edge Cases </summary> 
 
 - Token expired > 12h 
 - Mobile retries 3×
