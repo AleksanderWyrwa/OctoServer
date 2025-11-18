@@ -173,7 +173,18 @@ throw new Error("missing session token"); /* reject unauthorized */
 ---
 
 # Mermaid Diagrams
-<pre> ```mermaid flowchart TD %% Main workflow A[Linear] --> B[Development] B --> C[Pull Request] C --> D[Review] D --> E[Merge] E --> F[Deploy] %% Backflow from Review D -->|Changes Requested| C C -->|Needs Rework| B ``` </pre>
+<pre> ```mermaid 
+  flowchart TD 
+  %% Main workflow 
+  A[Linear] --> B[Development] 
+  B --> C[Pull Request] 
+  C --> D[Review]
+  D --> E[Merge]
+  E --> F[Deploy]
+  %% Backflow from Review 
+  D -->|Changes Requested| C 
+  C -->|Needs Rework| B 
+ ``` </pre>
 
 **Rendered Result:**
 ```mermaid
