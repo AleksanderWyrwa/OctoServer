@@ -68,6 +68,14 @@
   <tr><td>DELETE /session</td><td>204 OK</td><td>500 ❌</td></tr>
 </table>
 
+<table>
+  <tr><th>A</th><th>B</th></tr>
+  <tr style="background:#f6f8fa"><td>1</td><td>2</td></tr>
+  <tr><td>3</td><td>4</td></tr>
+  <tr style="background:#f6f8fa"><td>5</td><td>6</td></tr>
+</table>
+
+
 ---
 
 # Collapsibles & Spoilers
