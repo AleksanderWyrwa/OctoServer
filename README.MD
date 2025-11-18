@@ -1,7 +1,5 @@
 # GitHub-Flavored Markdown + HTML Workshop (Caseform)
 
-A complete, ready-to-use Markdown file showcasing **all possibilities** of GitHub-Flavored Markdown with examples, HTML, code snippets, and rendered results below each snippet.
-
 ---
 
 # Why Markdown + HTML?
