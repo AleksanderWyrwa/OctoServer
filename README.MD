@@ -38,7 +38,8 @@ The naming aligns with our auth service conventions.
 
 <details>
 <summary>Reasoning</summary>
-The naming aligns with our auth service conventions.
+- :snowflake: [Test Analytics](https://docs.codecov.com/docs/test-analytics): Detect flaky tests, report on failures, and find test suite problems.
+- :package: [JS Bundle Analysis](https://docs.codecov.com/docs/javascript-bundle-analysis): Save yourself from yourself by tracking and limiting bundle sizes in JS merges.
 </details>
 
 ---
