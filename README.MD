@@ -128,14 +128,14 @@
 
 ```markdown
 <details>
-<summary>📘 API Documentation</summary>
+<summary>API Documentation</summary>
 
 This section provides reference info for the `/users` API.
 
 ---
 
 <details>
-<summary>📊 Endpoint Overview</summary>
+<summary>Endpoint Overview</summary>
 
 | Field        | Description                      | Example            |
 |:-------------|:----------------------------------|:-------------------|
@@ -150,7 +150,7 @@ This section provides reference info for the `/users` API.
 ---
 
 <details>
-<summary>💻 Example Request</summary>
+<summary>Example Request</summary>
 
 ```bash
 curl -X GET https://api.example.com/users \
@@ -164,14 +164,14 @@ curl -X GET https://api.example.com/users \
 **Rendered Result:**
 
 <details>
-<summary>📘 API Documentation</summary>
+<summary>API Documentation</summary>
 
 This section provides reference info for the `/users` API.
 
 ---
 
 <details>
-<summary>📊 Endpoint Overview</summary>
+<summary>Endpoint Overview</summary>
 
 | Field        | Description                      | Example            |
 |:-------------|:----------------------------------|:-------------------|
@@ -186,7 +186,7 @@ This section provides reference info for the `/users` API.
 ---
 
 <details>
-<summary>💻 Example Request</summary>
+<summary>Example Request</summary>
 
 ```bash
 curl -X GET https://api.example.com/users \
