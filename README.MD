@@ -32,3 +32,17 @@ Renaming improves clarity across auth services.
 <tr><td>POST /session</td><td>200 OK</td><td>200 OK</td></tr>
 <tr><td>DELETE /session</td><td>204 NoCt</td><td>500 ❌</td></tr>
 </table>
+
+<details>
+<summary>Edge Cases</summary>
+- Token refresh fails if expired > 12h
+- Mobile client retries 3×
+</details>
+
+<details>
+<summary>Edge Cases</summary>
+<ul>
+<li>Token refresh fails if expired > 12h</li>
+<li>Mobile client retries 3×</li>
+</ul>
+</details>
