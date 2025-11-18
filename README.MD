@@ -109,13 +109,6 @@ if (!sessionToken) {
 }
 ```
 
-**Rendered Result:**
-
-// Example Caseform logic
-if (!sessionToken) {
-throw new Error("missing session token"); /* reject unauthorized */
-}
-
 ---
 
 ## Notes / Info
