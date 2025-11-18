@@ -31,20 +31,30 @@
 ### Aligment in markdown Table
 
 ```markdown
-| Left | Center | Right |
-|:-----|:------:|------:|
-| a    | b      | c     |
+| Left-aligned (text)     | Center-aligned (labels) | Right-aligned (numbers) |
+|:------------------------|:-----------------------:|-------------------------:|
+| normal text             | status                  |                  1234.56 |
+| longer sentence here    | **ACTIVE**              |                    98765 |
+| file name.md            | pending                 |                       42 |
+| item with `code`        | v1.2.3                  |                   3,210  |
+
 ```
 
 **Rendered Result:**
 
-| Left | Center | Right |
-|:-----|:------:|------:|
-| a    | b      | c     |
+| Left-aligned (text)     | Center-aligned (labels) | Right-aligned (numbers) |
+|:------------------------|:-----------------------:|-------------------------:|
+| normal text             | status                  |                  1234.56 |
+| longer sentence here    | **ACTIVE**              |                    98765 |
+| file name.md            | pending                 |                       42 |
+| item with `code`        | v1.2.3                  |                   3,210  |
+
+
+>
 
 ### HTML Table
 
-> [!TIP]
+> [!IMPORTANT]
 > All HTML tags available for use inside Markdown files can be found [here](https://github.com/gjtorikian/html-pipeline/blob/main/lib/html_pipeline/sanitization_filter.rb).
 
 ```html
