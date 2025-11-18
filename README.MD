@@ -18,7 +18,6 @@
 | Bold + Italic                  | `***bolditalic***`                 | ***bolditalic***              |
 | Strikethrough                  | `~~strikethrough~~`                | ~~strikethrough~~             |
 | Inline code                    | `` `inline code` ``                | `inline code`                 |
-| Blockquote                     | `> quote`                          | > quote                       |
 | Horizontal rule                | `---` or `***`                     | ———                           |
 | Highlight (HTML)               | `<mark>highlight</mark>`           | <mark>highlight</mark>        |
 | Subscript / Superscript (HTML) | `<sub>sub</sub>`, `<sup>sup</sup>` | H<sub>2</sub>O, x<sup>2</sup> |
