@@ -105,26 +105,72 @@
 
 ```markdown
 <details>
-<summary>Edge Cases</summary>
+<summary>📘 API Documentation</summary>
 
-- Token expired > 12h  
-- Mobile retries 3×  
+This section provides reference info for the `/users` API.
+
+---
+
+<details>
+<summary>📊 Endpoint Overview</summary>
+
+| Field        | Description                      | Example            |
+|:-------------|:----------------------------------|:-------------------|
+| Method       | HTTP verb used                    | GET                |
+| Path         | Request path                      | `/api/users`       |
+| Auth         | Authentication required?          | Yes                |
+| Rate Limit   | Max requests per minute           | 60                 |
+| Returns      | JSON array of user objects        | `[ {…}, {…} ]`     |
 
 </details>
+
+---
+
+<details>
+<summary>💻 Example Request</summary>
+
+```bash
+curl -X GET https://api.example.com/users \
+  -H "Authorization: Bearer <token>"
+```
+</details> 
+</details>
+
 ```
 
 **Rendered Result:**
 
 <details>
-<summary>Edge Cases</summary>
+<summary>📘 API Documentation</summary>
 
-- Token expired > 12h  
-- Mobile retries 3×  
+This section provides reference info for the `/users` API.
+
+---
+
+<details>
+<summary>📊 Endpoint Overview</summary>
+
+| Field        | Description                      | Example            |
+|:-------------|:----------------------------------|:-------------------|
+| Method       | HTTP verb used                    | GET                |
+| Path         | Request path                      | `/api/users`       |
+| Auth         | Authentication required?          | Yes                |
+| Rate Limit   | Max requests per minute           | 60                 |
+| Returns      | JSON array of user objects        | `[ {…}, {…} ]`     |
 
 </details>
 
-<sub><sup>|| spoiler text here ||</sup></sub>
+---
 
+<details>
+<summary>💻 Example Request</summary>
+
+```bash
+curl -X GET https://api.example.com/users \
+  -H "Authorization: Bearer <token>"
+```
+</details> 
+</details>
 
 ---
 
