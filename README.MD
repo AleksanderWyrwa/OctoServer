@@ -171,6 +171,26 @@ flowchart TD
     C -->|Needs Rework| B
 ```
 # Mermaid Class Diagrams
+<pre>
+```mermaid
+classDiagram
+    class Organization {
+        +String name
+        +String organizationType
+    }
+
+    class OrganizationEditable {
+        +String address
+        +String phone
+        +String email
+        +String description
+    }
+
+    Organization "1" --> "1" OrganizationEditable
+```
+</pre>
+
+**Rendered Result:**
 ```mermaid
 classDiagram
     class Organization {
