@@ -21,3 +21,14 @@ Renaming improves clarity across auth services.
 </details>
 
 `#0969DA`
+
+| Endpoint | Expected | Actual |
+|------------------|----------|--------|
+| POST /session | 200 OK | 200 OK |
+| DELETE /session | 204 NoCt | 500 ❌ |
+
+<table>
+<tr><th>Endpoint</th><th>Expected</th><th>Actual</th></tr>
+<tr><td>POST /session</td><td>200 OK</td><td>200 OK</td></tr>
+<tr><td>DELETE /session</td><td>204 NoCt</td><td>500 ❌</td></tr>
+</table>
