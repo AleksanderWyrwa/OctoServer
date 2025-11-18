@@ -24,7 +24,7 @@
 **Rendered Result:**
 
 | Endpoint        | Expected | Actual |
-| --------------- | -------- | ------ |
+| --------------- | -------: | ------ |
 | POST /session   | 200 OK   | 200 OK |
 | DELETE /session | 204 OK   | 500 ❌  |
 
