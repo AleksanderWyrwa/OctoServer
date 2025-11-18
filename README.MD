@@ -6,8 +6,6 @@
   * Clear GitHub Discussions
   * Enhanced READMEs and documentation
 
-![build](https://img.shields.io/badge/build-passing-brightgreen)
-
 ---
 # Text Formatting
 
@@ -235,7 +233,7 @@ if (!sessionToken) {
 
 # Badges
 
-![Adam](https://img.shields.io/badge/build-passing-brightgreen)
+<p>Inline math: \(x^2 + y^2 = z^2\)</p>
 
 ---
 
