@@ -80,7 +80,6 @@
 - Mobile retries 3×  
 
 </details>
-
 ```
 
 **Rendered Result:**
@@ -92,7 +91,6 @@
 - Mobile retries 3×  
 
 </details>
-
 
 ---
 
