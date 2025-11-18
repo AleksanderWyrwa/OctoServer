@@ -9,6 +9,8 @@
 ---
 # Text Formatting
 
+<div align='center'>
+
 | Feature                        | Markdown Syntax                    | Example                       |
 | ------------------------------ | ---------------------------------- | ----------------------------- |
 | Bold                           | `**bold**` or `__bold__`           | **bold**                      |
@@ -22,6 +24,7 @@
 | Highlight (HTML)               | `<mark>highlight</mark>`           | <mark>highlight</mark>        |
 | Subscript / Superscript (HTML) | `<sub>sub</sub>`, `<sup>sup</sup>` | H<sub>2</sub>O, x<sup>2</sup> |
 
+</div>
 ---
 
 # Tables
