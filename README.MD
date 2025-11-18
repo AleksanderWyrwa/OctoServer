@@ -233,7 +233,13 @@ if (!sessionToken) {
 
 ---
 
-## Notes / Info
+# Badges
+
+![Adam](https://img.shields.io/badge/build-passing-brightgreen)
+
+---
+
+# Notes / Info
 
 ---
 
