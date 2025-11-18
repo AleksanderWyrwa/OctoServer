@@ -33,10 +33,9 @@
 ```markdown
 | Left-aligned (text)     | Center-aligned (labels) | Right-aligned (numbers) |
 |:------------------------|:-----------------------:|-------------------------:|
-| normal text             | status                  |                  1234.56 |
+| normal text             | **CANCLED*              |                  1234.56 |
 | longer sentence here    | **ACTIVE**              |                    98765 |
-| file name.md            | pending                 |                       42 |
-| item with `code`        | v1.2.3                  |                   3,210  |
+| file name.md            | **PENDING*              |                       42 |
 
 ```
 
