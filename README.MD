@@ -84,9 +84,14 @@ The naming aligns with our auth service conventions.
 
 ```markdown
 <details>
-  <summary>Edge Cases</summary>
-  - Token expired > 12h
-  - Mobile retries 3×
+  <summary>Spoiler warning</summary>
+  
+  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
+  
+  ```javascript
+  console.log("I'm a code block!");
+  ```
+  
 </details>
 ```
 
@@ -94,8 +99,8 @@ The naming aligns with our auth service conventions.
 
 <details>
 <summary>Edge Cases</summary>
-- Token expired > 12h
-- Mobile retries 3×
+ - Token expired > 12h
+ - Mobile retries 3×
 </details>
 
 ---
