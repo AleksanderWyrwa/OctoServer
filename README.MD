@@ -42,11 +42,6 @@
 |:-----|:------:|------:|
 | a    | b      | c     |
 
-| Expression |
-|:---------:|
-| `a \| b`  |
-
-
 ### HTML Table
 
 > [!TIP]
@@ -68,6 +63,9 @@
   <tr><td>DELETE /session</td><td>204 OK</td><td>500 ❌</td></tr>
 </table>
 
+### Multi-row or multi-column cells (using HTML)
+
+```html
 <table>
   <tr><th colspan="2">Header</th></tr>
   <tr>
@@ -78,6 +76,23 @@
     <td>B2</td>
   </tr>
 </table>
+```
+
+**Rendered Result:**
+
+<table>
+  <tr><th colspan="2">Header</th></tr>
+  <tr>
+    <td rowspan="2">A</td>
+    <td>B1</td>
+  </tr>
+  <tr>
+    <td>B2</td>
+  </tr>
+</table>
+
+> [!TIP]
+> You can use [online generators](https://www.tablesgenerator.com/markdown_tables) for creating both html and markdown tables.
 
 ---
 
