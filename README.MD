@@ -1,3 +1,12 @@
+Some text above.
+
+<div align="center">
+  <strong>Centered Text</strong><br>
+  <em>Subtext below it</em>
+</div>
+
+More text below.
+
 # GitHub-Flavored Markdown + HTML Workshop (Caseform)
 
 # Why Markdown + HTML?
