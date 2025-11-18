@@ -35,9 +35,8 @@ Renaming improves clarity across auth services.
 
 <details>
 <summary>Edge Cases</summary>
-- George Washington
-* John Adams
-+ Thomas Jefferson
+- Company 1
+- Company 2
 </details>
 
 <details>
