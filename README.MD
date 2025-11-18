@@ -33,9 +33,9 @@
 ```markdown
 | Left-aligned (e.g. text)     | Center-aligned (e.g. labels) | Right-aligned (e.g. numbers) |
 |:-----------------------------|:----------------------------:|-----------------------------:|
-| normal text                  | **CANCLED*                   |                      1234.56 |
+| normal text                  | **CANCLED**                  |                      1234.56 |
 | longer sentence here         | **ACTIVE**                   |                        98765 |
-| file name.md                 | **PENDING*                   |                           42 |
+| file name.md                 | **PENDING**                  |                           42 |
 
 ```
 
@@ -43,9 +43,9 @@
 
 | Left-aligned (e.g. text)     | Center-aligned (e.g. labels) | Right-aligned (e.g. numbers) |
 |:-----------------------------|:----------------------------:|-----------------------------:|
-| normal text                  | **CANCLED*                   |                      1234.56 |
+| normal text                  | **CANCLED**                  |                      1234.56 |
 | longer sentence here         | **ACTIVE**                   |                        98765 |
-| file name.md                 | **PENDING*                   |                           42 |
+| file name.md                 | **PENDING**                  |                           42 |
 
 ### HTML Table
 
