@@ -374,12 +374,3 @@ The data comes from the Stage[^1].
 * [ ] Investigate performance
 * [x] Update README
 * [ ] Review PR
-
----
-
-# Summary
-
-* Markdown = simple, fast
-* HTML = powerful, flexible
-* Combining both → best results in GitHub
-* Fully supports Caseform workflow
