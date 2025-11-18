@@ -39,6 +39,9 @@ Renaming improves clarity across auth services.
 - Company 2
 </details>
 
+- Company 1
+- Company 2
+
 <details>
 <summary>Edge Cases</summary>
 <ul>
