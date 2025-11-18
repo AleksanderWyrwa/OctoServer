@@ -1,39 +1,24 @@
 # GitHub-Flavored Markdown + HTML Workshop (Caseform)
 
-Welcome to a full demo of **everything Markdown can do** in the context of Caseform.
+A complete, ready-to-use Markdown file showcasing **all possibilities** of GitHub-Flavored Markdown with examples, HTML, code snippets, and rendered results below each snippet.
 
 ---
 
-## Table of Contents
+# Why Markdown + HTML?
 
-1. [Why Markdown Matters](#why-markdown-matters)
-2. [PR Review Examples](#pr-review-examples)
-3. [Tables](#tables)
-4. [Collapsibles & Spoilers](#collapsibles--spoilers)
-5. [Code Blocks and Inline Comments](#code-blocks-and-inline-comments)
-6. [GitHub Discussions](#github-discussions)
-7. [Mermaid Diagrams](#mermaid-diagrams)
-8. [Footnotes](#footnotes)
-9. [Task Lists](#task-lists)
-10. [Blockquotes & Emojis](#blockquotes--emojis)
-11. [Live Workshop Section](#live-workshop-section)
+* Workflow: Linear → Dev → PR → Review → Merge
+* PR descriptions optional; formatting improves clarity
+* Benefits:
+
+  * Structured PR comments
+  * Clear GitHub Discussions
+  * Enhanced READMEs and documentation
+
+> Tip: Good formatting reduces reviewer fatigue. ✅
 
 ---
 
-## Why Markdown Matters
-
-- Our workflow: **Linear → Dev → PR → Review → Merge**
-- Stories already descriptive → PR descriptions optional
-- Markdown + HTML improve:
-  - PR review comments
-  - GitHub Discussions
-  - Documentation and READMEs
-
-> Note: Good formatting reduces reviewer fatigue. ✅
-
----
-
-## PR Review Examples
+# PR Review Examples
 
 ### Markdown Example
 
@@ -46,17 +31,23 @@ Welcome to a full demo of **everything Markdown can do** in the context of Casef
 <summary>Reasoning</summary>
 The naming aligns with our auth service conventions.
 </details>
-Rendered Result:
+```
 
-Suggested Changes
- Rename token → sessionToken /* clearer meaning */
+**Rendered Result:**
 
- Add null-payload test /* covers mobile client edge case */
+### Suggested Changes
 
-<details> <summary>Reasoning</summary> The naming aligns with our auth service conventions. </details>
-HTML Example
-html
-Skopiuj kod
+* [ ] Rename `token` → `sessionToken` /* clearer meaning */
+* [ ] Add null-payload test /* covers mobile client edge case */
+
+<details>
+<summary>Reasoning</summary>
+The naming aligns with our auth service conventions.
+</details>
+
+### HTML Example
+
+```html
 <h3>Suggested Changes</h3>
 <ul>
   <li><input type="checkbox"> Rename <code>token</code> → <code>sessionToken</code></li>
@@ -66,144 +57,192 @@ Skopiuj kod
   <summary>Reasoning</summary>
   Aligns with our service-level naming.
 </details>
-Rendered Result:
+```
 
-<h3>Suggested Changes</h3> <ul> <li><input type="checkbox"> Rename <code>token</code> → <code>sessionToken</code></li> <li><input type="checkbox"> Add null payload test</li> </ul> <details> <summary>Reasoning</summary> Aligns with our service-level naming. </details>
-Tables
-Markdown Table
-markdown
-Skopiuj kod
+**Rendered Result:**
+
+<h3>Suggested Changes</h3>
+<ul>
+  <li><input type="checkbox"> Rename <code>token</code> → <code>sessionToken</code></li>
+  <li><input type="checkbox"> Add null payload test</li>
+</ul>
+<details>
+<summary>Reasoning</summary>
+Aligns with our service-level naming.
+</details>
+
+---
+
+# Tables
+
+### Markdown Table
+
+```markdown
 | Endpoint        | Expected | Actual |
 |-----------------|----------|--------|
 | POST /session   | 200 OK   | 200 OK |
 | DELETE /session | 204 OK   | 500 ❌ |
-Rendered Result:
+```
 
-Endpoint	Expected	Actual
-POST /session	200 OK	200 OK
-DELETE /session	204 OK	500 ❌
+**Rendered Result:**
 
-HTML Table
-html
-Skopiuj kod
+| Endpoint        | Expected | Actual |
+| --------------- | -------- | ------ |
+| POST /session   | 200 OK   | 200 OK |
+| DELETE /session | 204 OK   | 500 ❌  |
+
+### HTML Table
+
+```html
 <table>
   <tr><th>Endpoint</th><th>Expected</th><th>Actual</th></tr>
   <tr><td>POST /session</td><td>200 OK</td><td>200 OK</td></tr>
   <tr><td>DELETE /session</td><td>204 OK</td><td>500 ❌</td></tr>
 </table>
-Rendered Result:
+```
 
-<table> <tr><th>Endpoint</th><th>Expected</th><th>Actual</th></tr> <tr><td>POST /session</td><td>200 OK</td><td>200 OK</td></tr> <tr><td>DELETE /session</td><td>204 OK</td><td>500 ❌</td></tr> </table>
-Collapsibles & Spoilers
-markdown
-Skopiuj kod
+**Rendered Result:**
+
+<table>
+  <tr><th>Endpoint</th><th>Expected</th><th>Actual</th></tr>
+  <tr><td>POST /session</td><td>200 OK</td><td>200 OK</td></tr>
+  <tr><td>DELETE /session</td><td>204 OK</td><td>500 ❌</td></tr>
+</table>
+
+---
+
+# Collapsibles & Spoilers
+
+```markdown
 <details>
   <summary>Edge Cases</summary>
   - Token expired > 12h
   - Mobile retries 3×
 </details>
-Rendered Result:
+```
 
-<details> <summary>Edge Cases</summary> - Token expired > 12h - Mobile retries 3× </details>
-Code Blocks and Inline Comments
-javascript
-Skopiuj kod
+**Rendered Result:**
+
+<details>
+<summary>Edge Cases</summary>
+- Token expired > 12h
+- Mobile retries 3×
+</details>
+
+---
+
+# Code Blocks & Inline Comments
+
+```javascript
 // Example Caseform logic
 if (!sessionToken) {
   throw new Error("missing session token"); /* reject unauthorized */
 }
-Rendered Result:
+```
+
+**Rendered Result:**
 
 // Example Caseform logic
 if (!sessionToken) {
 throw new Error("missing session token"); /* reject unauthorized */
 }
 
-GitHub Discussions
-markdown
-Skopiuj kod
+---
+
+# GitHub Discussions
+
+```markdown
 ## Action Items
 - [ ] Investigate cold-start latency /* backend lambdas */
 - [ ] Document retry strategy /* client SDK */
 - [ ] Align error schema /* API consistency */
 
 @alice Can you verify logging behavior?
-Rendered Result:
+```
 
-Action Items
- Investigate cold-start latency /* backend lambdas */
+**Rendered Result:**
 
- Document retry strategy /* client SDK */
+## Action Items
 
- Align error schema /* API consistency */
+* [ ] Investigate cold-start latency /* backend lambdas */
+* [ ] Document retry strategy /* client SDK */
+* [ ] Align error schema /* API consistency */
 
 @alice Can you verify logging behavior?
 
-Mermaid Diagrams
-mermaid
-Skopiuj kod
+---
+
+# Mermaid Diagrams
+
+```mermaid
 graph TD
   Linear --> Dev
   Dev --> PR
   PR --> Review
   Review --> Merge
-Rendered Result: (Mermaid diagram rendered by GitHub or Mermaid viewer)
+```
 
-Footnotes
-markdown
-Skopiuj kod
+**Rendered Result:**
+(Mermaid diagram rendered in GitHub or Mermaid viewer)
+
+---
+
+# Footnotes
+
+```markdown
 Some flows rely on OAuth2[^1].
 
 [^1]: https://oauth.net/2/
-Rendered Result:
+```
 
-Some flows rely on OAuth21.
+**Rendered Result:**
 
-Task Lists
-markdown
-Skopiuj kod
+Some flows rely on OAuth2[^1].
+
+[^1]: [https://oauth.net/2/](https://oauth.net/2/)
+
+---
+
+# Task Lists
+
+```markdown
 - [ ] Investigate performance
 - [x] Update README
 - [ ] Review PR
-Rendered Result:
+```
 
- Investigate performance
+**Rendered Result:**
 
- Update README
+* [ ] Investigate performance
+* [x] Update README
+* [ ] Review PR
 
- Review PR
+---
 
-Blockquotes & Emojis
-markdown
-Skopiuj kod
+# Blockquotes & Emojis
+
+```markdown
 > Remember: clarity is key! 🚀
-Rendered Result:
+```
 
-Remember: clarity is key! 🚀
+**Rendered Result:**
 
-Live Workshop Section
-Enhance a real Caseform PR review using Markdown + HTML
+> Remember: clarity is key! 🚀
 
-Improve one GitHub Discussion
+---
 
-Update a README section
+# Live Workshop Section
 
-Apply task lists, tables, collapsibles, and footnotes
+* Enhance a Caseform PR review using Markdown + HTML
+* Improve a GitHub Discussion
+* Update a README section
+* Apply task lists, tables, collapsibles, footnotes, and Mermaid diagrams
 
-Summary
-Markdown = fast and clean
+---
 
-HTML = flexible and powerful
+# Summary
 
-Combining both gives the best experience for Caseform workflow
-
-Everything is rendered in GitHub or VSCode automatically
-
-pgsql
-Skopiuj kod
-
-This is a fully **ready Markdown file**, showcasing all Markdown features with examples and results directly below each snippet.  
-
-I can now create a **version with even more features**, like embedded images, badges, syntax highlighting, and color-coded HTML inside Markdown if you want. Do you want me to do that next?
-Footnotes
-https://oauth.net/2/ ↩
+* Markdown = simple, fast
+* HTML = powerful, flexible
+* Combining both → best results in GitHub
+* Fully supports Caseform workflow
