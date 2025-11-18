@@ -6,10 +6,6 @@ A complete, ready-to-use Markdown file showcasing **all possibilities** of GitHu
 
 # Why Markdown + HTML?
 
-* Workflow: Linear → Dev → PR → Review → Merge
-* PR descriptions optional; formatting improves clarity
-* Benefits:
-
   * Structured PR comments
   * Clear GitHub Discussions
   * Enhanced READMEs and documentation
