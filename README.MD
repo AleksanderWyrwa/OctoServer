@@ -1,4 +1,11 @@
 # GitHub-Flavored Markdown + HTML Workshop (Caseform)
+# Event Schedule
+
+The next meeting will be on <time datetime="2025-11-20T15:00:00Z">November 20, 2025 at 3:00 PM UTC</time>.
+
+You can also show just the date:
+
+- Project deadline: <time datetime="2025-12-01">December 1, 2025</time>
 
 # Why Markdown + HTML?
 
