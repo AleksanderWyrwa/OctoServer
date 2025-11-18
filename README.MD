@@ -64,3 +64,11 @@ Renaming improves clarity across auth services.
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
