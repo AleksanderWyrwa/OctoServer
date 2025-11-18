@@ -35,8 +35,8 @@ Renaming improves clarity across auth services.
 
 <details>
 <summary>Edge Cases</summary>
-- Token refresh fails if expired > 12h
-- Mobile client retries 3×
+  - Token refresh fails if expired > 12h
+  - Mobile client retries 3×
 </details>
 
 <details>
