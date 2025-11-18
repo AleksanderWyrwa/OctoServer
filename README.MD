@@ -1,7 +1,5 @@
 # GitHub-Flavored Markdown + HTML Workshop (Caseform)
 
----
-
 # Why Markdown + HTML?
 
   * Structured PR comments
