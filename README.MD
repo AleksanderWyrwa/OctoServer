@@ -19,3 +19,5 @@ Renaming improves clarity across auth services.
 <summary>Reasoning</summary>
 Renaming improves clarity across auth services.
 </details>
+
+`#0969DA`
