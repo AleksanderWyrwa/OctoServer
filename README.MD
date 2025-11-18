@@ -379,3 +379,16 @@ The data comes from the Stage[^1].
 * Combining both → best results in GitHub
 * Fully supports Caseform workflow
 
+<div style="display: flex; gap: 16px;">
+
+<div>
+  <h4>Left</h4>
+  <p>Some text on the left.</p>
+</div>
+
+<div>
+  <h4>Right</h4>
+  <p>Some text on the right.</p>
+</div>
+
+</div>
