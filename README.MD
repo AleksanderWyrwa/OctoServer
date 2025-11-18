@@ -66,12 +66,36 @@ Renaming improves clarity across auth services.
 > Advises about risks or negative outcomes of certain actions.
 
 ```mermaid
-  graph TD;
-  Linear --> Dev
-  Dev --> PR
-  PR --> Review
-  Review --> Merge
-  Merge --> Deploy
+flowchart TD
+
+    %% Nodes
+    A[Linear Issue Created] --> B[Development]
+    B --> C[Pull Request Opened]
+    C --> D[Code Review]
+
+    %% Forward flow
+    D -->|Approved| E[Merge]
+    E --> F[Deploy]
+
+    %% Review may send work back
+    D -->|Changes Requested| B
+
+    %% Optional complexities
+    C -->|Draft PR| C2[Work In Progress]
+    C2 --> B
+
+    %% QA stage after merge
+    E --> QA[QA Verification]
+    QA -->|Pass| F
+    QA -->|Fail| B
+
+    %% Hotfix path
+    HF[Hotfix Needed] --> B
+
+    %% Notifications
+    D --> N[Notify Stakeholders]
+
+
 ```
 
 - [x] #739
