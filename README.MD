@@ -69,12 +69,15 @@
 </table>
 
 <table>
-  <tr><th>A</th><th>B</th></tr>
-  <tr style="background:#f6f8fa"><td>1</td><td>2</td></tr>
-  <tr><td>3</td><td>4</td></tr>
-  <tr style="background:#f6f8fa"><td>5</td><td>6</td></tr>
+  <tr><th colspan="2">Header</th></tr>
+  <tr>
+    <td rowspan="2">A</td>
+    <td>B1</td>
+  </tr>
+  <tr>
+    <td>B2</td>
+  </tr>
 </table>
-
 
 ---
 
