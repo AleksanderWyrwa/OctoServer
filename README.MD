@@ -335,23 +335,16 @@ stateDiagram
 # Footnotes
 
 ```markdown
-Some flows rely on OAuth2[^1].
+The data comes from the Stage[^1].
 
-[^1]: https://oauth.net/2/
+[^1]: https://stage.caseform.de/
 ```
 
 **Rendered Result:**
 
-Some flows rely on OAuth2[^1].
+The data comes from the Stage[^1].
 
-[^1]:     First paragraph.
-
-    Second paragraph with code:
-
-    ```js
-    console.log("hello");
-    ```
-
+[^1]: [https://stage.caseform.de/](https://stage.caseform.de/)
 ---
 
 # Task Lists
