@@ -102,6 +102,13 @@ The naming aligns with our auth service conventions.
 
 # Code Blocks & Inline Comments
 
+<pre>```javascript
+// Example Caseform logic
+if (!sessionToken) {
+  throw new Error("missing session token"); /* reject unauthorized */
+}
+```</pre>
+
 ```javascript
 // Example Caseform logic
 if (!sessionToken) {
