@@ -75,3 +75,12 @@ Renaming improves clarity across auth services.
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
+
+<div class="mermaid">
+graph TD
+Linear --> Dev
+Dev --> PR
+PR --> Review
+Review --> Merge
+Merge --> Deploy
+</div>
