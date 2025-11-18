@@ -18,7 +18,6 @@
 | Bold + Italic                  | `***bolditalic***`                 | ***bolditalic***              |
 | Strikethrough                  | `~~strikethrough~~`                | ~~strikethrough~~             |
 | Inline code                    | `` `inline code` ``                | `inline code`                 |
-| Code block                     | <pre>`language\ncode\n`</pre>      | `js\nconsole.log("hi")\n`     |
 | Blockquote                     | `> quote`                          | > quote                       |
 | Horizontal rule                | `---` or `***`                     | ———                           |
 | Highlight (HTML)               | `<mark>highlight</mark>`           | <mark>highlight</mark>        |
