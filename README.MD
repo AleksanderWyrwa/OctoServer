@@ -42,10 +42,15 @@
 |:-----|:------:|------:|
 | a    | b      | c     |
 
+| Expression |
+|-----------|
+| `a \| b`  |
+
+
 ### HTML Table
 
 > [!TIP]
-> All tags available for use inside Markdown files can be found [here](https://github.com/gjtorikian/html-pipeline/blob/main/lib/html_pipeline/sanitization_filter.rb).
+> All HTML tags available for use inside Markdown files can be found [here](https://github.com/gjtorikian/html-pipeline/blob/main/lib/html_pipeline/sanitization_filter.rb).
 
 ```html
 <table>
