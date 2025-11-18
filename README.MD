@@ -28,6 +28,22 @@
 | POST /session   | 200 OK   | 200 OK |
 | DELETE /session | 204 OK   | 500 ❌  |
 
+### Aligment in markdown Table
+
+```markdown
+| Left | Center | Right |
+|:-----|:------:|------:|
+| a    | b      | c     |
+```
+
+**Rendered Result:**
+
+```markdown
+| Left | Center | Right |
+|:-----|:------:|------:|
+| a    | b      | c     |
+```
+
 ### HTML Table
 
 > [!TIP]
