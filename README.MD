@@ -252,7 +252,7 @@ if (!sessionToken) {
 
 **Rendered Result:**
 ```mermaid
-flowchart TD
+flowchart LR
 
     %% Main workflow
     A[Linear] --> B[Development]
