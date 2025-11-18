@@ -67,11 +67,11 @@ Renaming improves clarity across auth services.
 
 ```mermaid
   graph TD;
-    Linear --> Dev
-    Dev --> PR
-    PR --> Review
-    Review --> Merge
-    Merge --> Deploy
+  Linear --> Dev
+  Dev --> PR
+  PR --> Review
+  Review --> Merge
+  Merge --> Deploy
 ```
 
 - [x] #739
