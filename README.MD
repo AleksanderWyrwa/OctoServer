@@ -41,32 +41,6 @@ The naming aligns with our auth service conventions.
 The naming aligns with our auth service conventions.
 </details>
 
-### HTML Example
-
-```html
-<h3>Suggested Changes</h3>
-<ul>
-  <li><input type="checkbox"> Rename <code>token</code> → <code>sessionToken</code></li>
-  <li><input type="checkbox"> Add null payload test</li>
-</ul>
-<details>
-  <summary>Reasoning</summary>
-  Aligns with our service-level naming.
-</details>
-```
-
-**Rendered Result:**
-
-<h3>Suggested Changes</h3>
-<ul>
-  <li><input type="checkbox"> Rename <code>token</code> → <code>sessionToken</code></li>
-  <li><input type="checkbox"> Add null payload test</li>
-</ul>
-<details>
-<summary>Reasoning</summary>
-Aligns with our service-level naming.
-</details>
-
 ---
 
 # Tables
