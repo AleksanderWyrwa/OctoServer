@@ -1,12 +1,3 @@
-Some text above.
-
-<div align="center">
-  <strong>Centered Text</strong><br>
-  <em>Subtext below it</em>
-</div>
-
-More text below.
-
 # GitHub-Flavored Markdown + HTML Workshop (Caseform)
 
 # Why Markdown + HTML?
@@ -14,8 +5,6 @@ More text below.
   * Structured PR comments
   * Clear GitHub Discussions
   * Enhanced READMEs and documentation
-
-> Tip: Good formatting reduces reviewer fatigue. ✅
 
 ---
 
