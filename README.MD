@@ -238,29 +238,6 @@ if (!sessionToken) {
 
 ---
 
-# GitHub Discussions
-
-```markdown
-## Action Items
-- [ ] Investigate cold-start latency /* backend lambdas */
-- [ ] Document retry strategy /* client SDK */
-- [ ] Align error schema /* API consistency */
-
-@alice Can you verify logging behavior?
-```
-
-**Rendered Result:**
-
-## Action Items
-
-* [ ] Investigate cold-start latency /* backend lambdas */
-* [ ] Document retry strategy /* client SDK */
-* [ ] Align error schema /* API consistency */
-
-@alice Can you verify logging behavior?
-
----
-
 # Mermaid Diagrams
 <pre> ```mermaid 
   flowchart TD 
@@ -367,7 +344,13 @@ Some flows rely on OAuth2[^1].
 
 Some flows rely on OAuth2[^1].
 
-[^1]: [https://oauth.net/2/](https://oauth.net/2/)
+[^1]:     First paragraph.
+
+    Second paragraph with code:
+
+    ```js
+    console.log("hello");
+    ```
 
 ---
 
