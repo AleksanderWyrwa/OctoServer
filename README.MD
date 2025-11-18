@@ -124,28 +124,19 @@ throw new Error("missing session token"); /* reject unauthorized */
 ---
 
 > [!NOTE]
-> The API call is rate-limited to 100 requests per minute.
-
----
-
-> [!CAUTION]
-> This change may break backward compatibility with v1 clients.
-
----
-
-> [!ERROR]
-> The delete endpoint currently returns 500 for null payloads.
-
----
-
-> [!SUCCESS]
-> The new endpoint correctly validates all input types.
-
----
+> Useful information that users should know, even when skimming content.
 
 > [!TIP]
-> Use `sessionToken` instead of `token` to improve clarity.
+> Helpful advice for doing things better or more easily.
 
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 ---
 
 > [!DETAILS]
