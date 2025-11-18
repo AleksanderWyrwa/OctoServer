@@ -10,35 +10,6 @@
 
 ---
 
-# PR Review Examples
-
-### Markdown Example
-
-```markdown
-### Suggested Changes
-- [ ] Rename `token` → `sessionToken` /* clearer meaning */
-- [ ] Add null-payload test /* covers mobile client edge case */
-
-<details>
-<summary>Reasoning</summary>
-The naming aligns with our auth service conventions.
-</details>
-```
-
-**Rendered Result:**
-
-### Suggested Changes
-
-* [ ] Rename `token` → `sessionToken` /* clearer meaning */
-* [ ] Add null-payload test /* covers mobile client edge case */
-
-<details>
-<summary>Reasoning</summary>
-The naming aligns with our auth service conventions.
-</details>
-
----
-
 # Tables
 
 ### Markdown Table
