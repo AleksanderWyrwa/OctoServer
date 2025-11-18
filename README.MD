@@ -132,6 +132,7 @@ This section provides reference info for the `/users` API.
 ```bash
 curl -X GET https://api.example.com/users \
   -H "Authorization: Bearer <token>"
+`` `
 </details> 
 </details>
 
