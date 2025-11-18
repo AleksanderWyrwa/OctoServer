@@ -6,6 +6,8 @@
   * Clear GitHub Discussions
   * Enhanced READMEs and documentation
 
+![build](https://img.shields.io/badge/build-passing-brightgreen)
+
 ---
 # Text Formatting
 
