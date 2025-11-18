@@ -375,15 +375,6 @@ The data comes from the Stage[^1].
 
 ---
 
-# Live Workshop Section
-
-* Enhance a Caseform PR review using Markdown + HTML
-* Improve a GitHub Discussion
-* Update a README section
-* Apply task lists, tables, collapsibles, footnotes, and Mermaid diagrams
-
----
-
 # Summary
 
 * Markdown = simple, fast
