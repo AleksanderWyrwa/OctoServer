@@ -43,12 +43,9 @@
 
 | Left-aligned (text)     | Center-aligned (labels) | Right-aligned (numbers) |
 |:------------------------|:-----------------------:|-------------------------:|
-| normal text             | **CANCLED*              |                  1234.56 |
+| normal text             | **CANCLED**             |                  1234.56 |
 | longer sentence here    | **ACTIVE**              |                    98765 |
-| file name.md            | **PENDING*              |                       42 |
-
-
->
+| file name.md            | **PENDING**             |                       42 |
 
 ### HTML Table
 
