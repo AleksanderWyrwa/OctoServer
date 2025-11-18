@@ -137,12 +137,6 @@ throw new Error("missing session token"); /* reject unauthorized */
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
----
-
-> [!DETAILS]
-> **More details:**  
-> This endpoint validates the token format, checks expiration, and ensures the user is active.  
-> Use the `checkToken()` helper for all services.
 
 ---
 
