@@ -35,8 +35,9 @@ Renaming improves clarity across auth services.
 
 <details>
 <summary>Edge Cases</summary>
-  - Token refresh fails if expired > 12h
-  - Mobile client retries 3×
+- George Washington
+* John Adams
++ Thomas Jefferson
 </details>
 
 <details>
